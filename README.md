@@ -66,6 +66,11 @@ https://www.w3schools.com/html/html_attributes.asp
 
 
 
+### HTML Heading
+https://www.w3schools.com/html/html_headings.asp
+
+
+
 ### HTML Paragraph
 https://www.w3schools.com/html/html_paragraphs.asp
 
@@ -76,6 +81,7 @@ https://www.w3schools.com/html/html_links.asp
 
 a : anchor
 href : Hypertext Reference
+
 
 
 ### HTML URL
@@ -111,6 +117,13 @@ https://www.w3schools.com/html/html_filepaths.asp
 - Ex) 루트 상대경로 : /html/html_filepaths.asp
 
 
+
+
+### HTML Table
+https://www.w3schools.com/html/html_tables.asp
+
+table generator
+https://www.tablesgenerator.com/html_tables
 
 
 
