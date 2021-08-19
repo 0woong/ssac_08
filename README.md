@@ -149,7 +149,17 @@ https://www.w3schools.com/html/html5_video.asp
 ### HTML Youtube
 https://www.w3schools.com/html/html_youtube.asp
 
+alt : alternative
 
+
+
+### HTML Video
+https://www.w3schools.com/html/html5_video.asp
+
+
+
+### HTML Youtube
+https://www.w3schools.com/html/html_youtube.asp
 
 
 
