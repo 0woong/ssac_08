@@ -287,6 +287,8 @@ https://www.w3schools.com/css/css_background.asp
 
 ### CSS Flexbox
 
+https://www.w3schools.com/css/css3_flexbox.asp
+
 > 박스 배치 제어를 위한 display:flex 속성 및 배치 관련 속성을 부모요소에 적용함.
 
 > flex-direction 속성
@@ -295,13 +297,21 @@ https://www.w3schools.com/css/css_background.asp
 > - 가로배치, 세로배치 모두 제어가 가능함
 > - 가로배치가 기본 값
 
+> justify-content, align-item의 방향이 flex-direction의 설정에 의해서 뒤바뀔수있음
+
 ### 반응형 웹
 
 > 반응형 웹, 적응형 웹
 > OSMU(One Source Multi Use) 여부로 반응형과 적응형을 구분
 > Web Front End 에서의 OSMU의 기준은 HTML Source code => Contents
 
+### RWD Viewport
+
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
 ### Media Quety
+
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 > @media 키워드를 사용해서 break point를 설정을 하고, 그에 따른 독립된 코드 블럭을 실행할 수 있게 하는 것
 > break point(변경점)
@@ -321,3 +331,58 @@ body {color:red;}
 @media screen and (max-width:640px){}
 
 ```
+
+\*\* 가운데 배치/정렬 방식
+
+> 가로방향
+>
+> text-align:center - 텍스트, 인라인 요소
+> margin-left:auto, margin-right:auto - 가로길이가 정해진 블럭요소
+> justify-content:center - flex 박스 배치
+
+> 세로방향
+> align-items:center - flex 박스 배치
+> line-height : 텍스트
+
+### CSS Display
+
+https://www.w3schools.com/cssref/pr_class_display.asp
+
+### 복합(조합) 선택자
+
+> div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
+> div>p : > - 자식 선택자 : 자식요소만 선택
+
+### 가상 클래스
+
+> Element의 상태 구분
+>
+> - a:link
+> - a:visited
+> - a:hover
+> - a:active
+
+> Element의 특정 요소를 선택
+>
+> - .list-item:first-child(첫번째 요소 선택)
+> - .list-item:last-child(마지막 요소 선택)
+
+### Github 용어정리
+
+> repository : 저장소
+>
+> - local repository
+> - remote repository
+>
+> clone : 복제
+>
+> - remote repository를 local repository로 복제
+>
+> staging : commit할 파일을 선택하는 것(<-> unstaging)
+> commit : staging된 파일의 업데이트를 Fix(확정)하는 것
+> push : commit된 snapshot(업데이트 완료된 상태)을 remote repository에 업로드(업데이트) 하는 것
+>
+> pull : remote repository의 상태를 다운로드하여 local repository의 상태를 업데이트 하는 것(fetch + merge)
+> fetch : remote repository의 상태를 가져오기만 하는 것
+> merge : 가져온 업데이트된 상태들을 하나로 합치는 것
+> pull request : 각각 업데이트된 서로 다른 개발 내용을 remote repository 관리자가 merge 하도록 요청하는 것

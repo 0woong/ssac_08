@@ -200,6 +200,29 @@ table {
   font-style: italic;
 }
 
+.more-link {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  border: 1px solid red;
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
+
+.more-link:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.paragraph {
+  padding: 0 25px;
+}
+
+.paragraph br {
+}
+
 .group {
   display: flex;
   justify-content: center;
