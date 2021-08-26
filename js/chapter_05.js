@@ -4,7 +4,7 @@ const arr = ["a", "b", "c", "d", "e"];
 
 const arr1 = new Array("가", "나", "다");
 
-// 인덱스 번호 사용해서 배열에 엑세스
+// 인덱스 번호 사용해서 배열에 액세스 : 0부터 시작
 console.log(arr[0]);
 console.log(arr1[0]);
 
@@ -19,6 +19,7 @@ for (let i = 0; i < 3; i++) {
 // 배열 개수 확인 : 배열객체이름.length
 
 console.log(arr.length);
+
 for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }

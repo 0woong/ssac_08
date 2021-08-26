@@ -8,7 +8,7 @@ function sumPrint() {
   let sum = 50;
 
   for (let i = 0; i < 3; i++) {
-    //Block Scope(블럭 범위)
+    // Block Scope(블럭 범위)
     let msg = "Hello World";
 
     console.log(name);
@@ -16,7 +16,7 @@ function sumPrint() {
     console.log(msg);
   }
 
-  //함수 범위
+  // 함수 범위
   console.log(name);
   console.log(sum);
   // console.log(msg);

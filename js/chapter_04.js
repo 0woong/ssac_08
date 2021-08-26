@@ -5,7 +5,7 @@ function compareOne() {
   if (1 === "1") {
     console.log("==true");
   } else {
-    console.log("==flase");
+    console.log("==false");
   }
 }
 
@@ -16,16 +16,17 @@ function compareNumber(number) {
   if (number === "1") {
     console.log("==true");
   } else {
-    console.log("==flase");
+    console.log("==false");
   }
 }
 
-compareNumber(1); //1 === '1'
-compareNumber(2); //2 === '1'
-compareNumber(3); //3 === '1'
+compareNumber(1); // 1 === '1'
+compareNumber(2); // 2 === '1'
+compareNumber(3); // 3 === '1'
 
 function sum(number1, number2) {
-  console.log(number1 + number2);
+  let sumPrint = number1 + number2;
+  console.log(sumPrint);
 }
 
 sum(1, 2);
@@ -39,8 +40,6 @@ function sumReturn(number1, number2) {
   let sum = number1 + number2;
   return sum;
 }
-
-sumReturn(1, 2);
 
 console.log(sumReturn(1, 2));
 
@@ -71,7 +70,7 @@ let hello5 = (number) => {
 
 let hello6 = (number) => console.log(number);
 
-// 매개변수가 1개일때 소괄호 생략가능
+// 매개변수 1개일때 소괄호 생략 가능
 let hello7 = (number) => console.log(number);
 
 hello5(1);

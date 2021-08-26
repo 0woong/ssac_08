@@ -1,9 +1,9 @@
 // if, switch
 
-console.log(new Date().getDate());
+console.log(new Date().getDay());
 
 let day;
-switch (new Date().getDate()) {
+switch (new Date().getDay()) {
   case 0:
     day = "일요일";
     break;
@@ -29,6 +29,8 @@ if (new Date().getDay() === 0) {
 } else if (new Date().getDay() === 2) {
   day2 = "화요일";
 } else if (new Date().getDay() === 3) {
-  day2 = "주 후반";
+  day2 = "수요일";
+} else {
+  day = "주 후반";
 }
 console.log(day2);
