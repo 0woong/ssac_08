@@ -102,9 +102,9 @@ https://www.w3schools.com/js/js_loop_while.asp
 > HTML4
 > getElementById()
 >
-> getElementByTag()
+> getElementsByTag()
 >
-> getElementByClassName()
+> getElementsByClassName()
 >
 > HTML5
 >
@@ -113,3 +113,35 @@ https://www.w3schools.com/js/js_loop_while.asp
 > querySelectorAll()
 >
 > - 한 종류의 메소드로 id, class, tag 요소로 접근하는데 모두 사용 가능
+> - css selector
+
+### Create, Append Element(Node)
+
+> document.createElement()
+>
+> document.appendChild()
+
+### Vanilla js / jquery
+
+> Vanilla Js : 라이브러리나 프레임워크 사용없이 순수 자바스크립트로 개발하는 것
+>
+> Jquery : javascript 라이브러리
+>
+> - $() == $(document).ready() : HTML Element가 모두 랜더링된 이후에 실행
+
+### JS Event
+
+https://www.w3schools.com/js/js_htmldom_events.asp
+
+> Event : 상태 변화
+>
+> 이벤트 종류
+>
+> - 마우스 : 클릭, 움직임, 휠...
+> - 키보드 : 키 누름...
+
+### JS Event Listener(Handler)
+
+> addEventListener(이벤트, 함수)
+>
+> - jquery : on()
